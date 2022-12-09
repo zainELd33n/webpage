@@ -1,0 +1,70 @@
+.hero,
+.header {
+    padding: 10px 50px 100px 200px;
+    background-color: #1F2937;
+    display: flex;
+}
+.header{
+    justify-content: space-between;
+}
+.hero {
+    justify-content: space-between;
+}
+.HHH{
+    flex-direction: column;
+    color: white;
+    align-items: flex-start;
+}
+#placeholder {
+    align-self: flex-end;
+    /* position: relative;
+    bottom: 175px;
+    right: 200px; */
+    background-color: gray;
+    color: lightgray;
+    height: 200px;
+    width: 400px;
+}
+.hero-text{
+
+    font-size: 48px;
+    font-weight: bold;
+    width: auto;
+}
+.hero-sec-text {
+    padding-left: 22px;
+    width: 300px;
+}
+.signup {
+    font-weight: bold;
+    font-size: 12px;
+    background-color: aqua;
+    color: black;
+    height: 0.75cm;
+    width: 4cm;
+    position: relative;
+    left: 15px;
+    border-radius: 15px;
+    border: none;
+    transition-duration: 0.4s;
+}
+.signup:hover {
+    background-color: white;
+    color: aqua;
+}
+#place-text {
+    text-align: center;
+    position: relative;
+    top: 69px;
+}
+#logo-text {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+#logo-sec-text {
+    padding-right: 12px;
+    color: #E5E7EB;
+    font-weight: 500;
+    font-size: 18px; 
+}
