@@ -68,8 +68,11 @@
     font-weight: 500;
     font-size: 18px; 
 }
+.body {
+    background-color: #dad7f7;
+}
 .body-section {
-    margin: 50px 250px 50px 250px;
+    padding: 5px 250px 55px 250px;
     display: flex;
     justify-content: space-between;
 }
@@ -82,7 +85,7 @@
 }
 .body-text,
 .body-section p {
-    margin-top: 95px;
+    padding-top: 5px;
     font-family: Arial, Helvetica, sans-serif;
 }
 div .body-section p {
